@@ -1,0 +1,28 @@
+********************************
+**Les commends terminal de php**
+-voir la version de php
+php -v
+-Executer le code php au terminal
+php nomDePage.php
+-Lancer le serveur
+php -S localhost:8000
+-List des commends
+php -h
+-Quiter
+Ctrl+c
+
+*********************************
+************Syntax***************
+-Tag
+<?php your code;  ?> ==> good form
+<? your code; ?>     |
+<?= your code; ?>    |==> bad form (not all apache servers would be this turned on them )
+<% your code; %>     |
+
+extension ==> index.php
+
+-voir la version de php
+phpinfo();
+
+
+
